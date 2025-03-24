@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Modular Crow App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+      text-align: center;
+      background-color: #f2f2f2;
+    }
+    .button {
+      padding: 15px 25px;
+      font-size: 24px;
+      margin: 20px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Modular Crow App</h1>
+  <button class="button" onclick="window.location.href='/backtest'">Backtest</button>
+  <button class="button" onclick="window.location.href='/datasave'">Data Save</button>
+  <button class="button" onclick="window.location.href='/realtimetrade'">Realtime Trade</button>
+</body>
+</html>
