@@ -1,7 +1,9 @@
 # Ignore build directory
 /build/
+/CSVFiles/*
+!CSVFiles/
 
-/thirdparty/boost/*
+thirdparty/boost/*
 !thirdparty/boost/
 # Ignore object files
 *.o
